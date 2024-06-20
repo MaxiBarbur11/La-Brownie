@@ -1,9 +1,9 @@
-const gallery = document.querySelector('.gallery');
+// const gallery = document.querySelector('.gallery');
 
-gallery.addEventListener('mouseover', () => {
-    gallery.style.animationPlayState = 'paused';
-});
+// gallery.addEventListener('mouseover', () => {
+//     gallery.style.animationPlayState = 'paused';
+// });
 
-gallery.addEventListener('mouseout', () => {
-    gallery.style.animationPlayState = 'running';
-});
+// gallery.addEventListener('mouseout', () => {
+//     gallery.style.animationPlayState = 'running';
+// });

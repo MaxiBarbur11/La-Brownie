@@ -1,9 +1,8 @@
 :root{
-   --primary-color: #ff66c4
+    --primary-color: #ff66c4
 }
 *{
     font-family: "Rowdies", sans-serif;
-   
 }
 
 .navbar{
@@ -17,13 +16,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 .rowdies-regular {
     font-family: "Rowdies", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .contenedor img{
     border-radius: 50px;
@@ -284,8 +282,121 @@ margin-bottom: 20px;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 75px;
-   
 }
 .gallery img{
     height: 430px;
+}
+
+
+.botones-perfil{
+    height:150px;
+    width: 280px;
+    display: flex;
+    margin-left: 700px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 40px;
+    background: rgb(255,196,208);
+    background: radial-gradient(circle, rgba(255,196,208,1) 0%, rgba(255,197,255,1) 48%);
+}
+
+.botones-perfil button{
+    color: black;
+    text-decoration: none;
+    background-color: #ff00fd;
+    text-decoration: none;
+}
+
+.boton.cinco{
+    width: 300px;
+    height: 50px;
+}
+
+.boton.cinco span {
+	transition: .4s ease-in-out all;
+	position: absolute;
+	left: 40%;
+}
+
+.boton.cinco .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.boton.cinco svg {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+}
+
+.boton.cinco:hover {
+	background: hotpink;
+}
+
+.boton.cinco:hover .icono {
+	left: calc(100% - 50px);
+	opacity: 1;
+}
+
+.boton.cinco:hover span {
+	left: 20px;
+}
+
+.inico-registro {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.inico-registro-botones {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+.perfil-botones{
+    width: 400px;
+    height: 200px;
+    background-color: #fbe0fb;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.perfil-botones h3{
+    text-align: center;
 }

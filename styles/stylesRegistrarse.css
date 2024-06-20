@@ -1,0 +1,248 @@
+
+*{
+    font-family: "Rowdies", sans-serif;
+}
+
+.navbar{
+/* background-color:  #d496a7; */
+background-color: #E3BAC3;
+}
+
+body{
+    background-color:#ffff ;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rowdies-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedor img{
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+.logo:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.793);
+}
+h1{
+    transition: all 0.3s;
+}
+h1:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(255, 20%, 50%);
+    filter: drop-shadow(6px 6px 3px #f3eaea);
+}
+.botoncito{
+    background-color: white;
+    color: #d496a7;
+}
+.botoncito:hover{
+    background-color: #d496a7;
+    color: white;
+}
+.text-hero{
+    background-color: #f4e1e1e3;
+    border: 5px solid lue;
+    max-width: 600px;
+    height: 400px;
+    margin-top: 40px;
+    padding-top: 45px;
+    border-radius: 25px;
+    box-shadow: 7px 3px 28px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 3px 28px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 3px 28px 3px rgba(0,0,0,0.75);
+}
+
+.titulonav{
+margin-left: 40px;
+}
+.titulo2{
+    /* border: 3px solid black; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 95px;
+}
+
+.sesionTotal{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Montserrat";
+}
+
+.container-inciarSesion{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 362px;
+    background: rgb(225,130,150);
+    background: radial-gradient(circle, rgba(225,130,150,1) 50%, rgba(254,93,177,1) 90%);
+    height: 600px;
+    width: 900px;
+    margin: 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 7px 3px 28px 3px rgba(0,0,0,0.75);
+}
+
+.container-inciarSesion h1{
+    font-size: 53px;
+    justify-content: center;
+    width: 370px;
+    font-family: "Bevan";
+    
+}
+
+.container-inciarSesion p{
+    justify-content: left;
+    align-items: left;
+    width: 380px;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+.container-inciarSesion img{
+    width: 140px;
+    height: 140px;
+    margin-left: 300px;
+    border-radius: 90px;
+}
+
+.down{
+    margin-top: 70px;
+    width: 300px;
+    /* margin-left: 40px; */
+}
+
+.up{
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #e18296;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff7f50;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-column p,
+.footer-column ul,
+.footer-column li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #ff7f50;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+.seccion-footer{
+    margin-top: 15px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
